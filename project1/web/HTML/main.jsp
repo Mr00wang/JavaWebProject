@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>JavaWeb</title>
+    <title>JavaWeb_strong</title>
 </head>
 <frameset rows="100,*">
     <frame  name="top" src="top.jsp">
