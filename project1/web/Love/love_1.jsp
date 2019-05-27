@@ -1,18 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Wang
-  Date: 2019/5/25
-  Time: 15:45
+  User: wang
+  Date: 2019/5/27
+  Time: 13:05
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Happy Birthday</title>
+    <title>Love</title>
+
     <link href="favicon.ico" rel="shortcut icon" />
-   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <%--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
     <style>
         body{
             overflow: hidden;
@@ -35,11 +36,16 @@
         }
     </style>
 </head>
-
 <body>
 <h1 id="h1"></h1>
 <canvas></canvas>
-<div class="container">
+<div>
+    <h1>有用吗？</h1>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" />
+    </div>
+</div>
+<%--<div class="container">
     <div class="row clearfix">
         <div class="col-md-12 column">
             <div class="carousel slide" id="carousel-857965">
@@ -55,34 +61,34 @@
                     <div class="item active">
                         <img alt="" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/1/default.jpg" />
                         <div class="carousel-caption">
-                            <%--<h4>--%>
-                            <%--First Thumbnail label--%>
-                            <%--</h4>--%>
-                            <%--<p>--%>
-                            <%--Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.--%>
-                            <%--</p>--%>
+                            &lt;%&ndash;<h4>&ndash;%&gt;
+                            &lt;%&ndash;First Thumbnail label&ndash;%&gt;
+                            &lt;%&ndash;</h4>&ndash;%&gt;
+                            &lt;%&ndash;<p>&ndash;%&gt;
+                            &lt;%&ndash;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&ndash;%&gt;
+                            &lt;%&ndash;</p>&ndash;%&gt;
                         </div>
                     </div>
                     <div class="item">
                         <img alt="" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/2/default.jpg" />
                         <div class="carousel-caption">
-                            <%--<h4>--%>
-                            <%--Second Thumbnail label--%>
-                            <%--</h4>--%>
-                            <%--<p>--%>
-                            <%--Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.--%>
-                            <%--</p>--%>
+                            &lt;%&ndash;<h4>&ndash;%&gt;
+                            &lt;%&ndash;Second Thumbnail label&ndash;%&gt;
+                            &lt;%&ndash;</h4>&ndash;%&gt;
+                            &lt;%&ndash;<p>&ndash;%&gt;
+                            &lt;%&ndash;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&ndash;%&gt;
+                            &lt;%&ndash;</p>&ndash;%&gt;
                         </div>
                     </div>
                     <div class="item">
                         <img alt="" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/3/default.jpg" />
                         <div class="carousel-caption">
-                            <%--<h4>--%>
-                            <%--Third Thumbnail label--%>
-                            <%--</h4>--%>
-                            <%--<p>--%>
-                            <%--Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.--%>
-                            <%--</p>--%>
+                            &lt;%&ndash;<h4>&ndash;%&gt;
+                            &lt;%&ndash;Third Thumbnail label&ndash;%&gt;
+                            &lt;%&ndash;</h4>&ndash;%&gt;
+                            &lt;%&ndash;<p>&ndash;%&gt;
+                            &lt;%&ndash;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&ndash;%&gt;
+                            &lt;%&ndash;</p>&ndash;%&gt;
                         </div>
                     </div>
                 </div> <a class="left carousel-control" href="#carousel-857965" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-857965" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -94,7 +100,7 @@
                     <div class="alert alert-success alert-dismissable">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                         <h4>
-                            <%--李亚菊同学！--%>
+                            李亚菊同学！
                         </h4> <strong>Happy Birthday!</strong>
                     </div>
                 </div>
@@ -112,13 +118,13 @@
                                 <input type="password" class="form-control" id="inputPassword3" />
                             </div>
                         </div>
-                        <%--<div class="form-group">--%>
-                        <%--<div class="col-sm-offset-2 col-sm-10">--%>
-                        <%--<div class="checkbox">--%>
-                        <%--<label><input type="checkbox" />Remember me</label>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
+                        &lt;%&ndash;<div class="form-group">&ndash;%&gt;
+                        &lt;%&ndash;<div class="col-sm-offset-2 col-sm-10">&ndash;%&gt;
+                        &lt;%&ndash;<div class="checkbox">&ndash;%&gt;
+                        &lt;%&ndash;<label><input type="checkbox" />Remember me</label>&ndash;%&gt;
+                        &lt;%&ndash;</div>&ndash;%&gt;
+                        &lt;%&ndash;</div>&ndash;%&gt;
+                        &lt;%&ndash;</div>&ndash;%&gt;
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-default">Sign in</button>
@@ -129,7 +135,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>--%>
 <script>
     var canvas = document.querySelector("canvas"),
         ctx = canvas.getContext("2d");
@@ -224,7 +230,7 @@
     window.addEventListener("resize", onResize);
     requestAnimationFrame(render);
 
-    /*window.onload=function starttime(){
+   /* window.onload=function starttime(){
         time(h1,'2017,7,4');     // 在一起的时间
         ptimer = setTimeout(starttime,1000); // 添加计时器
     }
@@ -242,10 +248,8 @@
 //              alert(hour)
         obj.innerHTML="亲爱的<br>咱俩在一起的时间已经：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br><span>一时间不知道从哪说起,真爱来了，我们要好好把握。<br>不管面临多大的压力,不管前面的路如何崎岖.<br>不管经历过什么,我仍坚信最浪漫的事就是和你一起慢慢变老.<br>相信中间的计时器,将永远继续下去,直至数据溢出.</span>"
 
-        return true;*/
-    }
+        return true;
+    }*/
 </script>
-
-
 </body>
 </html>
