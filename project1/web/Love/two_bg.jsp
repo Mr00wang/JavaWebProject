@@ -17,7 +17,7 @@
 <div id="hovertreecontainer">
 
     <div>
-        <h1 id="h1">Wow</h1>
+        <h1 id="h1">李亚菊同学</h1>
         <h2 id="h2"> 生日快乐！</h2>
         <h3 id="h2"><a href="http://10.85.15.27:8080/project1_war_exploded/Love/love_1.jsp">点击登陆</a></h3>
         <p>&nbsp;</p>
