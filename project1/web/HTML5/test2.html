@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <script src="../../js/jquery.js"></script>
+    <script src="html5.js"></script>
+    <style>
+        canvas
+        {
+            width: 19px;
+            height: 9.3px;
+            position:relative;
+            background: linear-gradient(
+                    rgba(255,0,0,0.3),
+                    rgba(233, 219, 36, 0.3),
+                    rgba(255, 252, 60, 0.3),
+                    rgba(0,255,0,0.3),
+                    rgba(0,255,255,0.3),
+                    rgba(0,0,255,0.3),
+                    rgba(128,0,255,0.3));
+            transition: width 5s, height 5s, transform 5s;
+            -webkit-transition: width 5s, height 5s, transform 5s;
+        }
+
+        canvas:hover
+        {
+            width:1900px;
+            height: 930px;
+        }
+
+
+
+
+    </style>
+</head>
+<body onload="drawBackground();">
+<canvas id="background_canvas"></canvas>
+</body>
+</html>

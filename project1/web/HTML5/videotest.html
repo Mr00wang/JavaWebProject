@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放</title>
+</head>
+<body>
+<!--controls 控制进度条 -->
+    <button type="button" onclick="play()">播放</button>
+    <button type="button" onclick="pause()">暂停</button>
+    <video id="video" width="400px" height="200px" poster="2.jpg" controls>
+        <source src="mp3/G大调小步舞曲.mp3" />
+        您的浏览器不支持播放！
+    </video>
+</body>
+</html>
+
+<script>
+    var myVideo = document.getElementById("video");
+    function play() {
+        myVideo.play();
+    }
+    function pause() {
+        myVideo.pause();
+    }
+</script>

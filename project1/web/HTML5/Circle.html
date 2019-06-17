@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制圆形</title>
+</head>
+<body>
+    <h2>
+        绘制圆形
+    </h2>
+    <canvas id="mc" width="400" height="280"
+    style="border: 1px solid black"></canvas>
+    <script>
+        var canvas = document.getElementById("mc");
+        var ctx = canvas.getContext("2d");
+        for(var i=0;i<10;i++)
+        {
+            ctx.beginPath();
+            ctx.arc(i*25,i*25,(i+1)*8,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fillStyle = 'rgba(255,0,'+(10-i)*0.1+')';
+            ctx.fill();
+        }
+
+    </script>
+</body>
+</html>

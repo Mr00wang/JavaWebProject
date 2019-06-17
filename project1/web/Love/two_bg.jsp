@@ -9,8 +9,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Love</title>
-    <link href="http://hovertree.com/texiao/html5/index/hovertreewelcome.css" type="text/css" rel="stylesheet" />
+    <title>Happy Birthday!</title>
+    <link href="two_bg.css" type="text/css" rel="stylesheet" />
 </head>
 <body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 
@@ -19,9 +19,8 @@
     <div>
         <h1 id="h1">李亚菊同学</h1>
         <h2 id="h2"> 生日快乐！</h2>
-        <h3 id="h2"><a href="http://10.85.15.27:8080/project1_war_exploded/Love/love_1.jsp">点击登陆</a></h3>
+        <h3 id="h3"><a href="love_1.jsp">点击进入！</a></h3>
         <p>&nbsp;</p>
-        <%--<p><strong><a href="http://hovertree.com/">进入主站</a></strong></p>--%>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -33,16 +32,11 @@
 
 <canvas id="canvas"></canvas>
 <audio autoplay="autoplay">
-    <source src="http://hovertree.com" type="audio/ogg">
-    <source src="http://down.hovertree.com/hovertreesound/hovertreexihuanni.mp3" type="audio/mpeg">
-    您的浏览器不支持播放音乐。请用支持html5的浏览器打开,例如chrome或火狐或者新版IE等。
-    <br />何问起 hovertree.com
-</audio><script type="text/javascript" src="http://hovertree.com/texiao/html5/index/hovertreewelcome.js">
+</audio><script type="text/javascript" src="two_bg.js">
 </script>
 <script type="text/javascript">
 
-    ; (function (window) {
-
+    (function (window) {
         var ctx,
             hue,
             logo,
@@ -60,10 +54,6 @@
         settings.tension = 0.98;
 
         Math.TWO_PI = Math.PI * 2;
-
-        // ========================================================================================
-        // Oscillator 何问起
-        // ----------------------------------------------------------------------------------------
 
         function Oscillator(options) {
             this.init(options || {});
@@ -94,10 +84,6 @@
             };
 
         })();
-
-        // ========================================================================================
-        // Tendril hovertree.com
-        // ----------------------------------------------------------------------------------------
 
         function Tendril(options) {
             this.init(options || {});

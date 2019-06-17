@@ -3,7 +3,9 @@
 <html>
 <head>
     <title>Java Web</title>
-
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%--<img src="picture/3.jpg" class="img-responsive" alt="响应式图像">--%>
     <style>
         a:link{text-decoration-line:none; font-size:150%;color: #555555}
         a:visited{color: #555555;text-decoration-line: none}
